@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 - Amazon EC2</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Module 2: Amazon EC2</h1>
+    
+    <div class="section">
+        <h2>Introduction</h2>
+        <h3>What is Amazon EC2?</h3>
+        <p>Amazon Elastic Compute Cloud (Amazon EC2) is a cloud computing service that offers secure, scalable virtual servers (known as EC2 instances) to meet your business requirements. It allows you to run applications without having to own or manage physical servers.</p>
+        <p>EC2 allows you to:</p>
+        <ul>
+            <li>Quickly provision and launch servers in minutes.</li>
+            <li>Pay only for the compute capacity you use.</li>
+            <li>Avoid upfront hardware costs and maintenance of physical infrastructure.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Why Use Amazon EC2 Instead of On-Premises Servers?</h2>
+        <h3>Challenges with On-Premises Servers:</h3>
+        <ul>
+            <li><strong>Upfront Costs:</strong> Requires purchasing expensive hardware.</li>
+            <li><strong>Delivery Delays:</strong> Waiting weeks or months for server delivery.</li>
+            <li><strong>Setup Effort:</strong> Installation, configuration, and ensuring security take significant time and effort.</li>
+            <li><strong>Inflexibility:</strong> Once purchased, you're stuck with the servers whether you use them or not. Scaling up or down is difficult and costly.</li>
+        </ul>
+        <h3>Benefits of EC2:</h3>
+        <ul>
+            <li><strong>Quick Setup:</strong> AWS has already built and secured the physical infrastructure. You can launch servers (EC2 instances) within minutes.</li>
+            <li><strong>Pay-As-You-Go Pricing:</strong> Only pay for the time your instances are running, not when stopped or terminated.</li>
+            <li><strong>Scalability:</strong> Easily adjust capacity as your business needs change.</li>
+            <li><strong>No Maintenance:</strong> AWS handles the physical data center operations, server management, and resource provisioning.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>How EC2 Works</h2>
+        <ul>
+            <li><strong>Launch:</strong> Request virtual servers (EC2 instances) based on your workload requirements.</li>
+            <li><strong>Connect:</strong> Use these servers to host applications or services.</li>
+            <li><strong>Use:</strong> Customize and manage your instances to run business applications efficiently.</li>
+        </ul>
+        <img src="ec2_working.png" alt="How EC2 Works" style="width:100%; max-width:600px; display:block; margin-top:15px;">
+    </div>
+    
+    <div class="section">
+        <h2>Key Features of EC2</h2>
+        <h3>1. Virtualization and Multitenancy:</h3>
+        <ul>
+            <li><strong>Virtualization:</strong> EC2 instances are virtual machines that run on physical servers managed by AWS. A hypervisor enables multiple virtual servers to share the same physical hardware.</li>
+            <li><strong>Multitenancy:</strong> Multiple instances securely share a host machine’s resources. The hypervisor isolates each instance, ensuring secure and separate environments.</li>
+        </ul>
+        <h3>2. Flexible Operating Systems:</h3>
+        <ul>
+            <li>Choose from Linux or Windows-based operating systems.</li>
+            <li>Mix and match OS types for different business applications.</li>
+        </ul>
+        <h3>3. Customizable Software:</h3>
+        <ul>
+            <li>Install and run any software you need, including:</li>
+            <ul>
+                <li>Web applications (simple or complex).</li>
+                <li>Databases.</li>
+                <li>Enterprise software.</li>
+            </ul>
+        </ul>
+        <h3>4. Resizing Instances:</h3>
+        <p><strong>Vertical Scaling:</strong> Adjust instance size by increasing or decreasing resources like CPU and memory to match application needs.</p>
+        <h3>5. Networking Options:</h3>
+        <ul>
+            <li><strong>Publicly accessible:</strong> For websites and internet-facing applications.</li>
+            <li><strong>Privately accessible:</strong> For internal applications.</li>
+        </ul>
+        <h3>6. Cost Efficiency:</h3>
+        <p>Pay only for the running instances, helping reduce costs during periods of low demand.</p>
+    </div>
+    
+    <div class="section">
+        <h2>Advantages of Using EC2</h2>
+        <h3>Flexibility:</h3>
+        <ul>
+            <li>Quickly scale servers up or down to meet demand.</li>
+            <li>Manage multiple configurations and software setups to power different applications.</li>
+        </ul>
+        <h3>Speed and Agility:</h3>
+        <ul>
+            <li>Launch instances in minutes instead of weeks or months compared to on-premises setups.</li>
+        </ul>
+        <h3>Security:</h3>
+        <ul>
+            <li>Instances are isolated and secure, even when sharing resources on a host machine.</li>
+        </ul>
+        <h3>Supports Innovation:</h3>
+        <ul>
+            <li>Developers can focus on building applications rather than managing hardware.</li>
+        </ul>
+        <p>Amazon EC2 provides a cost-effective and scalable way to power your applications with compute resources, allowing businesses to adapt quickly to changing needs without being tied to physical hardware.</p>
+    </div>
+</body>
+</html>

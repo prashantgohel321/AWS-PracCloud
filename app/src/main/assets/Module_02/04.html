@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 - Scaling Amazon EC2</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Module 2: Scaling Amazon EC2</h1>
+
+    <div class="section">
+        <h2>The Problem with On-Premises</h2>
+        <p><strong>Issue:</strong> Businesses face varying workloads. Buying hardware for peak loads wastes money during low demand, while buying for average loads risks poor customer service during peaks.</p>
+        <p><strong>Analogy:</strong> Running a coffee shop with only one barista during peak hours results in long lines, while hiring extra staff during low-demand hours wastes money.</p>
+    </div>
+
+    <div class="section">
+        <h2>AWS Solution - Scalability and Elasticity</h2>
+        <p>AWS enables you to adjust computing resources dynamically based on demand.</p>
+        <p><strong>Outcome:</strong> You only pay for what you use, ensuring happy customers during peak times and cost savings during slow periods.</p>
+    </div>
+
+    <div class="section">
+        <h2>Key Feature: Amazon EC2 Auto Scaling</h2>
+        <p><strong>Function:</strong> Automatically adds or removes EC2 instances based on demand.</p>
+        <p><strong>Real-World Analogy:</strong> Adding more baristas when the line grows (dynamic scaling) or predicting busy hours (predictive scaling) to prepare staff in advance.</p>
+    </div>
+
+    <div class="section">
+        <h2>Amazon EC2 Scaling</h2>
+        <p>Websites that struggle to load often face increased traffic beyond their handling capacity. This is similar to a coffee shop with only one barista and a long queue of customers.</p>
+        <p>Amazon EC2 Auto Scaling enables automatic addition or removal of EC2 instances based on demand, ensuring availability.</p>
+        <p><strong>Types of Scaling:</strong></p>
+        <ul>
+            <li><strong>Dynamic Scaling:</strong> Responds to changing demand (e.g., sudden customer rush in a coffee shop).</li>
+            <li><strong>Predictive Scaling:</strong> Prepares resources in advance based on patterns (e.g., morning coffee rush times).</li>
+        </ul>
+        <img src="ec2_scaling.png" alt="Amazon EC2 Scaling">
+    </div>
+
+    <div class="section">
+        <h2>Scaling Up vs. Scaling Out</h2>
+        <p><strong>Scaling Up:</strong> Increasing the power of existing machines.</p>
+        <p><strong>Analogy:</strong> Giving a café worker a larger coffee machine won't necessarily help serve customers faster.</p>
+        <p><strong>Scaling Out:</strong> Adding more machines or workers to distribute the load.</p>
+        <p><strong>AWS Advantage:</strong> EC2 Auto Scaling automatically adjusts resources based on demand.</p>
+    </div>
+
+    <div class="section">
+        <h2>Key Points</h2>
+        <ul>
+            <li><strong>Flexible Scaling:</strong> Adjusts instance count based on demand.</li>
+            <li><strong>Capacity Settings:</strong></li>
+            <ul>
+                <li><strong>Minimum Capacity:</strong> The least number of instances needed (e.g., 1 instance).</li>
+                <li><strong>Desired Capacity:</strong> The ideal number of instances (e.g., 2 instances).</li>
+                <li><strong>Maximum Capacity:</strong> The limit for instances during peak demand (e.g., 4 instances).</li>
+            </ul>
+            <li><strong>Cost Efficiency:</strong> Avoids over-provisioning while maintaining performance.</li>
+        </ul>
+        <p><strong>Analogy:</strong> Like a food delivery service managing drivers based on demand.</p>
+    </div>
+
+    <div class="section">
+        <h2>Example: Amazon EC2 Auto Scaling</h2>
+        <p>With EC2 Auto Scaling, new instances are added as demand increases and removed when demand drops, ensuring cost efficiency.</p>
+        <p>Example configuration:</p>
+        <ul>
+            <li><strong>Minimum Capacity:</strong> 1 EC2 instance.</li>
+            <li><strong>Desired Capacity:</strong> 2 EC2 instances.</li>
+            <li><strong>Maximum Capacity:</strong> 4 EC2 instances.</li>
+        </ul>
+        <p>EC2 Auto Scaling ensures applications remain available while minimizing costs.</p>
+        <img src="auto_scaling.png" alt="Example: Amazon EC2 Auto Scaling">
+        <p>Because Amazon EC2 Auto Scaling uses EC2 instances, you pay only for what you use, reducing costs while maintaining performance.</p>
+    </div>
+
+    <div class="section">
+        <h2>Conclusion</h2>
+        <p>Amazon EC2 Auto Scaling provides a cost-effective and efficient way to handle fluctuating workloads.</p>
+        <ul>
+            <li>Auto Scaling ensures uninterrupted service with no single point of failure.</li>
+            <li>Combines dynamic and predictive scaling for optimized performance.</li>
+            <li>Helps businesses adjust resources efficiently, ensuring smooth operations.</li>
+        </ul>
+    </div>
+
+</body>
+</html>

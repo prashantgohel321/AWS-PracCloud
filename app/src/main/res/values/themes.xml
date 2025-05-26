@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LearningAppTry2" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorPrimary">@color/amz_squid_ink</item>
+        <item name="android:textColorPrimary">@color/amz_white</item>
+        <item name="android:actionMenuTextColor">@color/amz_orange</item>
+        <item name="android:actionBarSize">56dp</item>
+    </style>
+
+    <style name="Theme.LearningAppTry2" parent="Base.Theme.LearningAppTry2">
+    </style>
+</resources>

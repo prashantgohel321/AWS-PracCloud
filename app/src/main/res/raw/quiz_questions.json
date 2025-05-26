@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What does AWS stand for?",
+    "options": ["Amazon Web Service", "Advanced Web System", "Auto Web Services", "Amazon Wireless System"],
+    "correctAnswer": "Amazon Web Service"
+  },
+  {
+    "question": "Which AWS service is used for virtual servers?",
+    "options": ["S3", "EC2", "RDS", "IAM"],
+    "correctAnswer": "EC2"
+  },
+  {
+    "question": "Which AWS storage service provides object storage?",
+    "options": ["S3", "EBS", "EFS", "Glacier"],
+    "correctAnswer": "S3"
+  },
+  {
+    "question": "Which database service is fully managed by AWS?",
+    "options": ["DynamoDB", "MySQL", "PostgreSQL", "MongoDB"],
+    "correctAnswer": "DynamoDB"
+  },
+  {
+    "question": "What does IAM stand for in AWS?",
+    "options": ["Identity and Access Management", "Internet Access Management", "Instance and Application Management", "Infrastructure and Architecture Management"],
+    "correctAnswer": "Identity and Access Management"
+  },
+  {
+    "question": "Which AWS service is used for serverless computing?",
+    "options": ["Lambda", "EC2", "ECS", "Fargate"],
+    "correctAnswer": "Lambda"
+  },
+  {
+    "question": "Which AWS service is used for content delivery?",
+    "options": ["CloudFront", "S3", "Route 53", "RDS"],
+    "correctAnswer": "CloudFront"
+  },
+  {
+    "question": "What is the purpose of AWS Route 53?",
+    "options": ["Domain Name System (DNS)", "Compute Service", "Storage Management", "Networking"],
+    "correctAnswer": "Domain Name System (DNS)"
+  },
+  {
+    "question": "Which AWS database service is relational?",
+    "options": ["RDS", "DynamoDB", "Neptune", "Elasticache"],
+    "correctAnswer": "RDS"
+  },
+  {
+    "question": "Which AWS service is used for monitoring applications?",
+    "options": ["CloudWatch", "CloudTrail", "IAM", "Config"],
+    "correctAnswer": "CloudWatch"
+  }
+]

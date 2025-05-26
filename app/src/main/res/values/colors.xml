@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#000080</color>
+    <color name="amz_orange">#FF9900</color>
+    <color name="amz_black">#000000</color>
+    <color name="amz_squid_ink">#232F3E</color>
+    <color name="amz_charcoal">#37475A</color>
+    <color name="amz_white">#FFFFFF</color>
+    <color name="ripple_color">#33FF9900</color>
+</resources>

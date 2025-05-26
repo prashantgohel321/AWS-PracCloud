@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 - Amazon EC2 Instance Types</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Module 2: Amazon EC2 Instance Types</h1>
+    
+    <div class="section">
+        <h2>What Are EC2 Instance Types?</h2>
+        <p>Amazon EC2 instance types are virtual servers created to fulfil a variety of application requirements. They are optimized for certain workloads by providing various computation, memory, storage, and networking configurations.</p>
+        <p>Each instance is part of a family, each of which is built for a certain use case. This flexibility enables you to choose the optimum instance type for your workload requirements, ensuring cost efficiency and optimal performance.</p>
+        <h3>EC2 Instance Types:</h3>
+        <ul>
+            <li>General Purpose Instances</li>
+            <li>Compute Optimized Instances</li>
+            <li>Memory Optimized Instances</li>
+            <li>Accelerated Computing Instances</li>
+            <li>Storage Optimized Instances</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>1. General Purpose Instances</h2>
+        <p><strong>Overview:</strong> These instances provide a balance of compute, memory, and networking resources. They are versatile and can handle a wide range of applications.</p>
+        <h3>Use Cases:</h3>
+        <ul>
+            <li>Application servers.</li>
+            <li>Small and medium-sized databases.</li>
+            <li>Backend servers for enterprise applications.</li>
+            <li>Gaming servers.</li>
+        </ul>
+        <h3>Analogy:</h3>
+        <p>Consider a multi-tasking employee in a coffee shop, such as taking orders, preparing coffee, and managing the cash register. They may not specialize in any one work, but they are adaptable and capable of executing a wide range of duties.</p>
+        <h3>When to Use:</h3>
+        <p>Choose these instances when your workload requires a balanced use of all resources (compute, memory, and networking) without needing optimization in a specific area.</p>
+    </div>
+
+    <div class="section">
+        <h2>2. Compute Optimized Instances</h2>
+        <p><strong>Overview:</strong> Designed for compute-intensive tasks that require high-performance processors.</p>
+        <h3>Use Cases:</h3>
+        <ul>
+            <li>High-performance web servers.</li>
+            <li>Gaming servers with complex processing needs.</li>
+            <li>Batch processing workloads.</li>
+            <li>Scientific modeling or simulations.</li>
+        </ul>
+        <h3>Analogy:</h3>
+        <p>These are like baristas in a coffee shop—they specialize in making drinks efficiently and quickly, ensuring customers receive their orders promptly.</p>
+        <h3>When to Use:</h3>
+        <p>Use these instances for applications that require high processing capacity, such as gaming, real-time simulations, and mathematical computations.</p>
+    </div>
+
+    <div class="section">
+        <h2>3. Memory Optimized Instances</h2>
+        <p><strong>Overview:</strong> Built to deliver fast performance for applications that process large datasets in memory.</p>
+        <h3>Use Cases:</h3>
+        <ul>
+            <li>High-performance databases.</li>
+            <li>Real-time analytics and processing of large datasets.</li>
+            <li>In-memory caching and analytics applications.</li>
+        </ul>
+        <h3>Analogy:</h3>
+        <p>Imagine a cashier in a coffee shop—their job requires them to handle customer orders quickly, so they rely on their memory and efficiency to ensure everything is accurate and fast.</p>
+        <h3>When to Use:</h3>
+        <p>Choose these instances for workloads that require huge volumes of data to be preloaded into memory before processing, resulting in faster performance.</p>
+    </div>
+
+    <div class="section">
+        <h2>4. Accelerated Computing Instances</h2>
+        <p><strong>Overview:</strong> These instances utilize hardware accelerators (coprocessors) to accomplish specified tasks more effectively than a CPU.</p>
+        <h3>Use Cases:</h3>
+        <ul>
+            <li>Graphics-intensive applications.</li>
+            <li>Game and application streaming.</li>
+            <li>Machine learning model training.</li>
+            <li>Scientific computations.</li>
+        </ul>
+        <h3>Analogy:</h3>
+        <p>A latte artist in a coffee shop has a specialized skill set for making beautiful designs in lattes.</p>
+        <h3>When to Use:</h3>
+        <p>Use these instances for workloads that require specialist hardware, such as graphics processing or data pattern recognition.</p>
+    </div>
+
+    <div class="section">
+        <h2>5. Storage Optimized Instances</h2>
+        <p><strong>Overview:</strong> Designed for workloads with high sequential read and write access to large datasets stored locally.</p>
+        <h3>Use Cases:</h3>
+        <ul>
+            <li>Distributed file systems.</li>
+            <li>Data warehousing applications.</li>
+            <li>High-frequency online transaction processing (OLTP) systems.</li>
+        </ul>
+        <h3>Analogy:</h3>
+        <p>In a coffee shop, these instances are like the kitchen staff, who handle the preparation of food.</p>
+        <h3>When to Use:</h3>
+        <p>Use storage-optimized instances for applications that need fast access to huge datasets.</p>
+    </div>
+</body>
+</html>
