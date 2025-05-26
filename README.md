@@ -102,7 +102,7 @@ This project was developed for educational purposes. You are free to view, learn
 ## 📸 Screenshots
 
 ### 🔐 LOGO
-![LOGO](logo_white.png)
+![LOGO](logo_new.png)
 ![LOGO](logo_ink.png)
 
 ### Cards
