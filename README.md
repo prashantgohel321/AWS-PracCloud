@@ -101,49 +101,45 @@ This project was developed for educational purposes. You are free to view, learn
 ---
 ## 📸 Screenshots
 
-### 🔐 LOGO
-![LOGO](logo_new.png)
-![LOGO](logo_ink.png)
+### LOGOs
+<div style="display:inline; align:center;">
+<img src="/screenshots/LogoWhite.png" alt="App Icon" style="float:left; margin-right:26px;" width="140px">
+<img src="/screenshots/LogoInk.png" alt="App Icon" style="float:left; margin-right:26px;" width="140px">
+</div>
 
-### Cards
-![Cards](card_designs1.png)
+### Home Screen and first module
+<div style="display:inline; align:center;">
+<img src="/screenshots/HomeScreen.jpg" alt="Screenshot 1" height="420px">
+<img src="/screenshots/StartPreparation.jpg" alt="Screenshot 2" height="420px">
+<img src="/screenshots/InsideModule.jpg" alt="Screenshot 3" height="420px">
+<img src="/screenshots/ModuleHtmlFile.jpg" alt="Screenshot 4" height="420px">
+</div>
 
-### Login and Registration 
-![LOGIN](login_page.jpg)
-![Regi.](registration_page.jpg)
 
-### Sidebar
-![SIDEBAR](sidebar.jpg)
+### Home Screen and second module
+<div style="display:inline; align:center;">
+<img src="/screenshots/HomeScreen.jpg" alt="Screenshot 5" height="420px">
+<img src="/screenshots/ServicesOverview.jpg" alt="Screenshot 6" height="420px">
+</div>
 
-### About us
-![About us](about_us_page.jpg)
+### Sidebar and its modules
+<div style="display:inline; align:center;">
+<img src="/screenshots/Sidebar.jpg" alt="Screenshot 7" height="420px">
+<img src="/screenshots/AboutUs.jpg" alt="Screenshot 8" height="420px">
+<img src="/screenshots/ContactUs.jpg" alt="Screenshot 7" height="420px">
+<img src="/screenshots/RateApp.jpg" alt="Screenshot 8" height="420px">
+</div>
 
-### Contact Us
-![Contact Us](contact_us_page.jpg)
+### Quiz Section
+<div style="display:inline; align:center;">
+<img src="/screenshots/QuizScreen.jpg" alt="Screenshot 8" height="420px">
+<img src="/screenshots/StartQuiz.jpg" alt="Screenshot 7" height="420px">
+<img src="/screenshots/QuizHistory.jpg" alt="Screenshot 7" height="420px">
+</div>
 
-### Rate app
-![RATE](rate_us_page.jpg)
+### Profile
+<div style="display:inline; align:center;">
+<img src="/screenshots/Profile.jpg" alt="Screenshot 7" height="420px">
+</div>
 
-### Home Page
-![HOME PAGE](home_page.jpg)
-
-### Main Quiz Page
-![Main QUIZ Page](main_quiz_page.jpg)
-
-### Profile page
-![ProfilePage](profile_page.jpg)
-
-### Card 1 Modules
-![CARD 1](card_1.jpg)
-
-### Card 2 Topics
-![CARD 1](card_1_topics.jpg)
-
-### Card 2 Services Overview
-![CARD2](card_2.jpg)
-
-### Quiz Questions Page
-![QuizQuestions](quiz_questions_page.jpg)
-
-### Quiz History
-![Quiz History](quiz_result_page.jpg)
+---
